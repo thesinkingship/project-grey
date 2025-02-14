@@ -1,0 +1,30 @@
+.cover {
+    background-image: url(namelessbookcover.png);
+}
+
+.pages {
+    background-color: black;
+    
+}
+
+.page-left, .page-right {
+    padding: 10px 50px;
+    font-family: "Lucida Console", monospace;
+    text-shadow: 0px 0px 2px white;
+}
+
+.page-left {
+    background-image: url("nlpageL.png");
+}
+
+.page-right {
+    background-image: url("nlpageR.png");
+}
+
+#concept {
+    letter-spacing: 1px;
+    color: darkslategray;
+    text-shadow: 0px 1px 2px black;
+    text-decoration: underline;
+    font-weight: bold;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>No title yet.</title>
+        <link rel="stylesheet" href="bookstyles/style.css">
+        <link rel="stylesheet" href="bookstyles/generic.css">
+    </head>
+    <body>
+        <div id="table">
+            <div id="book"> 
+                <div class="cover" id="generic-cover"></div>
+                <div class="pages">
+                    <div class="page-left" id="gl1">
+                        <p>This book details the worldbuilding of the universe the story is set in 
+                            and the summary of each Isle present. 
+                            Strangely enough, there isn't an exact name for this whole project, so 
+                            as a stand-in it's called Project Grey. You know. From grey matter. <br><br>
+                            This specifically focuses around the ship and the planet as suggested by the cover art; the 
+                            other stuff outside the ship will come later.
+                        </p>
+                    </div>
+                    <div class="page-right" id="gr1">
+                        <p>The general gist of the story is that a giant planet is imprisoned inside this big ship. 
+                            It's initially supposed to be delivered to a specific destination, though multiple 
+                            malfunctions have occurred: 
+                            <ul>
+                                <li>The planet is <i>far</i> bigger when in its atmosphere than its containment suggests due 
+                                to a spatial malfunction. As in, each biome seen from afar is like looking into a porthole if that 
+                                makes sense.</li>
+                                <li>The automated driver responsible for actually getting the planet to its destination was, for 
+                                    lack of a better word, tricked into sending it into TON-618. It hasn't done so due to a crash knocking 
+                                    them clean out and halting transport until a human spirit entered several billion years later. 
+                                    Said crash also resulted in life sort of glitching: sapient life cannot evolve, instead god-like entities 
+                                    form spontaneously due to unaddressed damages as a measure to generate ship staff.
+                                </li>
+                                <li>The manufacturers of the ship, the robot and the planet have long since gone extinct.</li>
+                            </ul>
+                            So the whole thing that they do is they aimlessly explore solar systems, celestial bodies, other  
+                            universes, wherever, as well as explore the world stored inside. 
+                            I've yet to actually give them a sort of goal point???
+                        </p>
+                    </div>
+                    <div class="page-left" id="gl2">
+                        <p>The world stored inside the ship is simply referred to (as of current) as The Marble, as its previous designation was 
+                            lost. As of current. <br>
+                            As already written, it's expansive on its surface as compared to beyond its atmosphere - entering it through said atmosphere reveals the 
+                            horizon rising from the curvature of a sphere almost to what could be mistaken for a flat plane. The descent into the 
+                            Marble is as if delving into a fractal. <br>
+                            It is not formally mapped. Any setting is possible. That being said, there should be some regions mapped out... hmm. Then again 
+                            this is a work in progress, so. Not yet. Maybe it shouldn't be categorized or mapped at all.<br><br>
+                        </p>
+                    </div>
+                    <div class="page-right" id="gr2">
+                        <p>What is most definite is that each Isle has their own personal realm. Accessible via either round the ship or somewhere 
+                            in the Marble, they're little pocket dimensions that function as personal rooms akin to servers with a password lock 
+                            rather than outright singleplayer servers. Each realm resembles each Isle's personal tastes, aesthetics and 
+                            symbols associated with them; if they are lodged somewhere within the Marble, these themes will bleed into the surrounding 
+                            environment. To counter this, they are <i>extremely</i> hard to get to without assistance from the corrisponding Isle. 
+                            The designs range from simple houses to great kingdoms.
+                        </p>
+                    </div>
+                    <div class="page-left" id="gl3">
+                        <p> The ship itself has various functions. 
+                            <ul>
+                                <li>Shrink and magnify as a whole. Time dilation is accounted for - see the Nameless' entry.
+                                </li>
+                                <li>Intake of materials - this is primarily to sample and regenerate. Getting out said materials is extremely 
+                                    hard due to restrictions placed upon the ship due to the spatial malfunction - an infinite realm can't just 
+                                    spew infinite matter into the universe, after all.
+                                </li>
+                                <li>The creation of attachments to the ship. This generally includes FTL thrusters of various kinds as they are not initially 
+                                    built into the system (trips to transport planets are supposed to take billions of years according to the now-extinct 
+                                    planet manufacturers) or attachments made to simulate a body e.g. shrinking -> enter world -> form body into the shape 
+                                    of the locals with the ship in place of the head.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="page-right" id="gr3">
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <div id="currently-closed"> <!--refers to book-->
+                    <button onclick="openBook()">Open.</button>
+                    <button onclick="location.href='../bookshelf.html'">Back to Shelf.</button>
+                </div>
+                <div id="currently-open">
+                    <button onclick="previousPage()"><</button>
+                    <button onclick="nextPage()">></button> <br>
+                    <button onclick="closeBook()">Close.</button>
+                </div>
+            </div>
+            <script src="openclosebookfunction.js"></script>
+        </div>
+    </body>
+</html>

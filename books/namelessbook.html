@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Nameless</title>
+        <link rel="stylesheet" href="bookstyles/style.css">
+        <link rel="stylesheet" href="bookstyles/nameless.css">
+    </head>
+    <body>
+        <div id="table">
+            <div id="book"> 
+                <!--my reasoning is the cover and pages are personalized. the space it's in isn't-->
+                <div class="cover" id="nameless-cover"></div>
+                <div class="pages">
+                    <div class="page-left" id="nll1">
+                        <p>The owner of this pamphlet has no name, currently. 
+                            They are, also currently, the operator of the ship 
+                            that houses the shelf that houses the books. <br>
+                            They are extremely indecisive. <br><br>
+                            The specific concept they associate with is
+                            <span id="concept">isolation</span>,
+                            mostly that of the feeling of exploring empty places, 
+                            such as those that inspire the feeling of liminality. 
+                            Because of this, they have little need for such concepts as 'names', and they 
+                            have difficulty on deciding unless the answer is a no-brainer or 
+                            with a third option. <br><br>
+                            They are aware of the irony of being a travelling ship
+                            full of passengers. But unlike them and their amiability,
+                            they are rather irritable in the presence of others,
+                            and can take being truly isolated for months on end. <br>
+                            The other passengers interpret this as denial.
+                        </p>
+                    </div>
+                    <div class="page-right" id="nlr1">
+                        <p>As the <span id="concept">Isle of Isolation</span>,
+                            they would generally be left alone to their devices, and
+                            have a tendency to also get anxious when faced with a situation that
+                            relies on communication. Other Isles may aid with such procedures. <br><br>
+                            Beyond their station, they are generally <i>not</i> observed adventuring through
+                            the ship and the world held inside; due to their power being conserved towards
+                            piloting the ship, they have little power over changing the landscape to their will. <br><br>
+                            They are associated with the cards <b>The Fool</b> and <b>The Hermit</b>, 
+                            alongside fog and low clouds, lanterns, being betwixt and between, crossovers, contrast, coconut shells, gacha capsules and bowls. <br><br>
+                            Based on Dante from Limbus Company, The Little Prince and Davy Jones from Pirates of the Caribbean. 
+                            Takes heavy inspiration from the Backrooms, Aperture Science and Myst-like escape room games.
+                            They <i>would</i> have taken up other aesthetics, most particularly that of the I-Spy / Mr. Magorium's Wonder Emporium kind, 
+                            but has supposed that other Isles would make better use of them.
+                        </p>
+                    </div>
+                    <div class="page-left" id="nll2">
+                        <p>What do they <i>look</i> like, exactly? <br>
+                            Generally it's not really anything of your business. <br>
+                            But it's something of a robot. It is generally understood that they're the embodiment of the ship.
+                            Lore states that the Nameless was actually manufactured to be, well, some sorta 
+                            ship driving robot, which explains the whole lack of identity and 
+                            not caring if they're alone thing. <br>
+                            Their species? uhhhhh uhhh let's just say they're like. a product of something
+                            equivalent to a Magrathean. Said Magrathean-likes went extinct already, this last robot 
+                            willing to take the planet to its final destination. However, the 
+                            planet is defective - spatially defective - infinitely bigger on the surface than in containment 
+                            and from a distance, and so cannot be ejected from the ship at any point, though materials 
+                            can freely enter, though it's much harder for materials to <i>exit</i>, despite the abundance. 
+                            It's downright impossible for people to enter and exit, and Isles cannot exit or enter period.
+                            Yes, this is an invitation to universe-ending gluttony. Anyways, the Nameless doesn't have 
+                            much of an interest to do so.
+                        </p>
+                    </div>
+                    <div class="page-right" id="nlr2">
+                        <p>Powers. Powers, powers. Not many, unfortunately. They're an observer. <br>
+                            Their main prowess is just piloting said ship and operating any extensions built - 
+                            actually turns out they're the whole reason they could modify the size of the ship.
+                            It can shrink to about the size of a dandelion seed - yes, the bit on the end of the fluff - 
+                            up and past the size of the Oort cloud. Time dilation will adjust to an even flow of time calibrated,
+                            currently, to Earth humans as a result of the <b>Isle of Novelty</b> showing up. Previously, 
+                            the ship had been progressing at a sort of accelerated time passage with slowing down in order to 
+                            dodge obstacles. <br>
+                            The size of the content and therefore passengers inside the ship remain at the same size relative to the ship: 
+                            should the size be adjusted to the point where the planet shown inside is the same size to the Earth, 
+                            the people inside remain approximately the same size as the average human, should they decide to present as such.
+                        </p>
+                    </div>
+                    <div class="page-left" id="nll3">
+                        <p>Favorite places: <br>
+                            Since the realm is sort of... unmapped in this current state, 
+                            there isn't really much they could do to describe the areas they go to. 
+                            So there's more of a lore dump: The places the Nameless drives the ship to, outside of the 
+                            generic rocky planet, are generally described as Megastructures. 
+                            Structures that lie outside of observable space and just lie in another angle in the 4th 
+                            dimension Flatland style. Accessible through rifts in reality that allow the observation of 
+                            these monuments. The Nameless loooooves these places.
+                        </p>
+                    </div>
+                    <div class="page-right" id="nlr3">
+                        <p>Favorite stuff in general.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <div id="currently-closed"> <!--refers to book-->
+                    <button onclick="openBook()">Open.</button>
+                    <button onclick="location.href='../bookshelf.html'">Back to Shelf.</button>
+                </div>
+                <div id="currently-open">
+                    <button onclick="previousPage()"><</button>
+                    <button onclick="nextPage()">></button> <br>
+                    <button onclick="closeBook()">Close.</button>
+                </div>
+            </div>
+            <div class="sidebar" id="bar-left">
+                <div id="playlist">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1ZBefpvKX7D9q3jMlYzYc0?si=6QAcIg9UTSeOHiXAm0pCaA?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+            </div>
+            <script src="openclosebookfunction.js"></script>
+        </div>
+    </body>
+</html>

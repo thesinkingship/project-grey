@@ -1,0 +1,33 @@
+.cover {
+    background-image: url(paleonomecover.png);
+}
+
+.page-left, .page-right {
+    padding: 15px 40px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 17px;
+    letter-spacing: 1.8px;
+    word-spacing: 2.6px;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    text-shadow: 1px 0px 0px rgb(56, 56, 56);
+}
+
+.page-left {
+    background-image: linear-gradient(to right, rgba(255,0,0,0)95%, rgba(0, 0, 0, 0.806)), 
+    url(calacatta-gold-2000-mm-architextures.jpg);
+}
+
+.page-right {
+    background-image: linear-gradient(to left, rgba(255,0,0,0)95%, rgba(0, 0, 0, 0.806)), 
+    url(calacatta-gold-2000-mm-architextures.jpg);
+    background-position: 0px, 500px;
+}
+
+#concept{
+    font-size: 20px;
+    color:rgba(91, 72, 59, 0.495);
+    text-shadow: 0px -2px 2px rgb(41, 21, 8);
+}

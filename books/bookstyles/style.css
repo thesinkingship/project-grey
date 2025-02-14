@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+}
+
+#table {
+    background-image: url(oak-3275-mm-architextures.jpg);
+    background-size: cover;
+    position:relative;
+    width: 100%;
+    height: 720px;
+}
+
+#book {
+    position:sticky;
+    top: 30px;
+    margin: 0px auto 30px auto;
+    width: 900px;
+    /*so the inner pages are like. 450 each*/
+    height: 600px;
+}
+
+.cover {
+    position:inherit;
+    margin:auto;
+    width: 450px;
+    height: 600px;
+    background-color: black;
+    box-shadow: 0px 0px 15px;
+}
+
+.pages {
+    display:inline-flex;
+    position:inherit;
+    margin:auto;
+    width: 900px;
+    height: 600px;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 15px;
+}
+
+.page-left {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    width: 450px;
+    height: 600px;
+}
+.page-right {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    width: 450px;
+    height: 600px;
+}
+
+#controls {
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+.sidebar {
+    position: fixed;
+    width: 16%;
+    top: 30px;
+    height:670px;
+}
+
+#bar-left {
+    left: 35px;
+}
