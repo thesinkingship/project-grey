@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>No title yet.</title>
+        <link rel="stylesheet" href="bookstyles/style.css">
+        <link rel="stylesheet" href="bookstyles/shipshell.css">
+    </head>
+    <body>
+        <div id="table">
+            <div id="book"> 
+                <div class="cover" id="shipshell-cover"></div>
+                <div class="pages">
+                    <div class="page-left" id="shl1">
+                        <p>The cover of the Marble, the faulty planet hurtling slowly throughout space. <br>
+                            While it would have one day opened and deployed a freshly created world, it is now sealed and 
+                            cannot leave its eternal bounds; the only saving grace it has, now, is the gravitational 
+                            power of a supermassive black hole.<br><br><br>
+                            The Husk is comprised of two halves:<br><br>
+                            One made of glass fortified beyond all measure and free from reflections, to expose the planet to the night sky.<br><br>
+                            The other, a bowl of metals forged from iron stars, to hold its thrusters and 
+                            pose as a false albeit sufficient sun and sky. An impossibly immense garden of light, a biochemical wonder,
+                            this is a jungle all on its own.<br><br>
+                            There is a third structure, a revolving disc that replicates a moon. A half that never changes, it formed and forged itself 
+                            to suit the familiarities of its sole human inhabitant. As the tide began, so did operations; this is renewal.
+
+                        </p>
+                    </div>
+                    <div class="page-right" id="shr1">
+                        <p>Inspirations derive from the following:
+                            <ul>
+                                <li>Machinarium</li>
+                                <li>Machinika Museum and Atlas</li>
+                                <li>Solar Garden</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="page-left" id="shl2">
+                        <p>
+                        </p>
+                    </div>
+                    <div class="page-right" id="shr2">
+                        <p>
+                        </p>
+                    </div>
+                    <div class="page-left" id="shl3">
+                        <p>
+                        </p>
+                    </div>
+                    <div class="page-right" id="shr3">
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <div id="currently-closed"> <!--refers to book-->
+                    <button onclick="openBook()">Open.</button>
+                    <button onclick="location.href='../bookshelf.html'">Back to Shelf.</button>
+                </div>
+                <div id="currently-open">
+                    <button onclick="previousPage()"><</button>
+                    <button onclick="nextPage()">></button> <br>
+                    <button onclick="closeBook()">Close.</button>
+                </div>
+            </div>
+            <script src="openclosebookfunction.js"></script>
+        </div>
+    </body>
+</html>
