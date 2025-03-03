@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Jester</title>
+        <link rel="stylesheet" href="bookstyles/style.css">
+        <link rel="stylesheet" href="bookstyles/prismatic.css">
+    </head>
+    <body>
+        <div id="table">
+            <div id="book"> 
+                <div class="cover" id="prismatic-cover"></div>
+                <div class="pages">
+                    <div class="page-left" id="prl1">
+                        <p>The Isle of Initiation.
+                        </p>
+                    </div>
+                    <div class="page-right" id="prr1">
+                        <p>
+                        </p>
+                    </div>
+                    <div class="page-left" id="prl2">
+                        <p>
+                        </p>
+                    </div>
+                    <div class="page-right" id="prr2">
+                        <p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <div id="currently-closed"> <!--refers to book-->
+                    <button onclick="openBook()">Open.</button>
+                    <button onclick="location.href='../bookshelf.html'">Back to Shelf.</button>
+                </div>
+                <div id="currently-open">
+                    <button onclick="previousPage()"><</button>
+                    <button onclick="nextPage()">></button> <br>
+                    <button onclick="closeBook()">Close.</button>
+                </div>
+            </div>
+            <div class="sidebar" id="bar-left">
+            </div>
+            
+            <script src="openclosebookfunction.js"></script>
+        </div>
+    </body>
+</html>
