@@ -1,3 +1,8 @@
 .cover {
     background-image: url(greenlaceplaceholder.jpeg);
+    background-size: contain;
+}
+
+.page-left, .page-right {
+    padding: 15px 40px;
 }
