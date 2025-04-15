@@ -3,7 +3,7 @@ document.getElementsByClassName("pages")[0].style.display = "none";
 var getPagesLeft = document.getElementsByClassName("page-left");
 var getPagesRight = document.getElementsByClassName("page-right");
 var pageOn = 0;
-var amtOfPages = getPagesLeft.length - 1; 
+var amtOfPages = getPagesLeft.length - 1; //to account for the whole 'array starts at 0'
 
 function openBook(){
     var toBeShownButton = document.getElementById("currently-open");
@@ -38,11 +38,12 @@ function closeBook(){
 }
 
 function nextPage() {
-    pageOn++;
-    if(pageOn > amtOfPages) {
-        pageOn--;
+    pageOn++; // advance page
+    if(pageOn > amtOfPages) { //goes past amount of pages
+        pageOn--; //undos the advancement of the variable
         return;
     };
+    //the below is seaching through the pages to get the desired pair and, if not, not showing them
     for(let i = 0; i < getPagesRight.length; i++) {
         if(i == pageOn){
             getPagesRight[i].style.display = "";

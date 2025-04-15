@@ -2,28 +2,44 @@ body {
     background-color: black;
 }
 
+nav {
+    height: 30px;
+    width: 100%;
+    color: gainsboro;
+    display: flex;
+}
+
 main {
     background-image: url("dark-stained-timber-3430-mm-architextures.jpg");
-    width: 100%;
+    width: auto;
     height: 900px;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow-y: scroll;
 }
 
 .row {
     position:relative;
     display: inline-flex;
     width: 100%;
-    height: 330px;
-    margin-top: 10px;
-     /* background-color: aqua;just to make sure it shows... */
+    height: 350px;
+    /* background-color: aqua;just to make sure it shows... */
+    overflow-x: scroll;
+    -webkit-box-shadow: inset 0px 31px 96px 6px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 31px 96px 6px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 31px 96px 6px rgba(0,0,0,0.75);
 }
 
 .book {
     position: relative;
+    bottom: 0;
     text-align: center;
     background-color: dimgray;
     width: 225px;
     height: 300px;
     margin: 0px 10px;
+    margin-top: 20px;;
+    
 }
 
 img {
@@ -33,13 +49,17 @@ img {
 
 .shelf-bottom {
     position:absolute;
-    display: inline-flex;
     bottom: 0px;
     background-color: burlywood;
-    background-image: url("pine-3920-mm-architextures.jpg");
+    background-image: url("dark-stained-timber-3430-mm-architextures.jpg");
+    background-size: 50% 150%;
     box-shadow: 0px 40px 70px black;
     width: 100%;
     height: 30px;
+    overflow-x: visible;
+    -webkit-box-shadow: inset 0px 34px 13px -26px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 34px 13px -26px rgba(0,0,0,0.75);
+box-shadow: inset 0px 34px 13px -26px rgba(0,0,0,0.75);
 }
 
 .category-tag {
