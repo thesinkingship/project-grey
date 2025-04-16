@@ -1,0 +1,2 @@
+These are contained within the pages of the books, so each panel has to be 450 x 600px.
+Use Javascript only, obviously.
