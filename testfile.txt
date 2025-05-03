@@ -1,3 +1,28 @@
 Test one upload
 Proper account upload
 Testing public change
+
+This language does not have a name yet.
+Random words instead of the intended English occasionally pop up when trying ot define something. This event is very rare, and I don't want to rush it.
+Criteria is, it induces a level of innate and complete understanding amongst Isle-Bases, only demonstrating confusion when comparing it to actual English.
+
+Vocabulary:
+(Well, shit.)
+
+Also, stuff to paraphrase in the rephrasal of the Emptiness' book:
+
+<p>This is a transcription of terminal log information about the Isle of Isolation.<br><br>
+    Designations<br>
+    Primary: [UNKNOWN] <br>
+    Colloquial: The Concave Emptiness, or Cave <br>
+    Isle: The <span id="concept">Isle of Isolation</span> <br><br>
+    Retrieving first imperative... <br>
+    Command located <br>
+    First command: Transport finished product to coordinates. Unable to retrieve spatial data. Command issued approx. 4.5e9 years ago. <br><br>
+    Retrieving current imperative... <br>
+    Command located <br>
+    Current command: Withheld. Access to full message and time of writing requires administrative authorization. <br><br>
+    The Concave Emptiness is primarily described as 'bowl-like'; representative of both the ship and its cargo, their head is a pair of nested bowls 
+    and the rest are light projections operating as hair, an eye and arms. 
+</p>
+

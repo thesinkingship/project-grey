@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../books/bookstyles/style.css">
+        <link rel="stylesheet" href="teststyle.css">
+    </head>
+    <body>
+        <div id="table">
+            <div id="book"></div>
+            <div id="controls">
+                <div id="currently-closed"> <!--refers to book-->
+                    <button onclick="openBook()">Open.</button>
+                    <button onclick="location.href='../bookshelf.html'">Back to Shelf.</button>
+                </div>
+                <div id="currently-open">
+                    <button onclick="previousPage()"><</button>
+                    <button onclick="nextPage()">></button> <br>
+                    <button onclick="closeBook()">Close.</button>
+                </div>
+            </div>
+        </div>
+        <script src="../books/openclosebookfunction.js" async defer></script>
+    </body>
+</html>
