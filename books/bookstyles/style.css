@@ -16,8 +16,11 @@ body {
 }
 
 #book {
-    position:sticky;
+    position:absolute;
     top: 30px;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
     margin: 0px auto 30px auto;
     width: 900px;
     /*so the inner pages are like. 450 each*/
@@ -27,7 +30,10 @@ body {
 }
 
 .cover {
-    position:inherit;
+    position:absolute;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
     margin:auto;
     width: 450px;
     height: 600px;
@@ -59,8 +65,11 @@ body {
 }
 
 #controls {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
     text-align: center;
 }
 

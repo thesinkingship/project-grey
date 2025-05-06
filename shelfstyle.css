@@ -77,3 +77,25 @@ img {
 #overall {
     width: 440px;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  main {
+    scrollbar-width: auto;
+    scrollbar-color: #2d190a #53310b;
+  }
+
+  /* Chrome, Edge, and Safari */
+  main::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  main::-webkit-scrollbar-track {
+    background: #53310b;
+  }
+
+  main::-webkit-scrollbar-thumb {
+    background-color: #2d190a;
+    border-radius: 10px;
+    border: 3px none #000000;
+  }
