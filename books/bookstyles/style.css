@@ -1,5 +1,7 @@
 body {
     background-color: black;
+    width: 99%;
+    height: 100%;
 }
 
 #table {
@@ -74,12 +76,17 @@ body {
 }
 
 .sidebar {
-    position: fixed;
+    position: absolute;
     width: 16%;
-    top: 30px;
+    top: 25px;
     height:670px;
+    background-color: aquamarine;
 }
 
 #bar-left {
     left: 35px;
+}
+
+#bar-right {
+    right: 35px;
 }
