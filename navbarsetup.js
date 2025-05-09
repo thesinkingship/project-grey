@@ -10,6 +10,7 @@ navBar.style.gap = "5px";
 var navOpenClose = document.createElement("div");
 navOpenClose.id = "open-nav";
 
+
 navOpenClose.style.height = "20px";
 navOpenClose.style.width = "20px";
 navOpenClose.style.position = "absolute";
@@ -25,8 +26,8 @@ function navEvaluate() {
         navOpenClose.style.top = "9px";
     } else if (navBar.style.display == "flex") {
         navBar.style.display = "none";
-        console.log("Attempted close.");
         navOpenClose.style.top = "12px";
+        
     }
 }
 

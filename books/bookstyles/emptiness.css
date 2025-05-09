@@ -15,10 +15,27 @@
 
 .page-left {
     background-image: url("nlpageL.png");
+    position: relative;
 }
 
 .page-right {
     background-image: url("nlpageR.png");
+    position: relative;
+}
+
+.imageframe {
+    background-image: url("emptinesspagephotoborder.png");
+    width: 450px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    pointer-events: none;
+}
+
+#nlr2 {
+    background-image: url(emptinesspagephotobase.png);
 }
 
 #concept {

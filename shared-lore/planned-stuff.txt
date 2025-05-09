@@ -1,0 +1,8 @@
+Emptiness:
+A ship driving simulator. 
+
+The Library room should be made in Blender as a nexus for places to go. Areas include:
+The Bookshelf, which is presently being worked on.
+A Cabinet of Curiosities to save the long trips as a fast travel point.
+
+Big thing: DO EVERYTHING WITHOUT ASSETS FIRST!!! If I need markers, draw them as SIMPLE AS POSSIBLE.
