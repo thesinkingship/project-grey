@@ -1,5 +1,10 @@
 Emptiness:
-A ship driving simulator. 
+A ship driving simulator. May be a roguelike.
+Do: 
+- A large map initially that loops in on itself.
+    - Objects on said large map, which take the form of square zones. When the ship is hovering over it, allow the option to enter. Limit movement to 'charges'.
+- A solar system image generator. Start on a generated system image and store that to local storage.
+- Resource sampling and generation.
 
 The Library room should be made in Blender as a nexus for places to go. Areas include:
 The Bookshelf, which is presently being worked on.
