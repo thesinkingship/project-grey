@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="roguex.css">
+</head>
+
+<!--
+This is a roguelike game that depends on obtaining information (score) and material types (upgrade currency) 
+from randomly generated solar systems across a map.
+Taking inspo from Blue Prince, travelling to and fro from different points upon the map requires Fuel. 
+How this is spent is based on the distance between the two points, but the units of fuel and expenditure might be tweaked.
+When on a solar system:
+VERSION 1 - A popup will show, being able to select 1 out of n rows of perks, dependent on amount of planets.
+VERSION 2 - The window to the right will be able to show details about the solar system and allow the spaceship to travel to each planet.
+V3 - ??? ehh i'll tick things off
+-->
+
+<body> <!--uhhhh i'm not going to do something as complex as leaflets yet but like a zoomin thing?? a map generator, but how...-->
+        <nav></nav>
+        <canvas id="space-map">
+
+        </canvas>
+        
+        <div class="rsb-expansion" id="right-bar">
+            <canvas id="solar-map">
+
+            </canvas>
+            <div id="info-text">
+                
+            </div>
+            
+        </div>
+        <div id="handle-button">
+                
+        </div>
+        <script src="../navbarsetup.js"></script>
+</body>
+</html>

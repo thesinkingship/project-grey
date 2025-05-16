@@ -1,0 +1,64 @@
+body {
+    width: 100%;
+    background-color: white;
+    margin: 0;
+}
+
+#space-map {
+    position: absolute;
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    overflow:auto;
+    height: fit-content;
+    overflow: hidden;
+    
+}
+
+#right-bar {
+    position: fixed;
+    background: whitesmoke;
+    height: 100%;
+    inset: 0 0 0 auto;
+    width: 0px;
+    z-index: 10;
+    animation-name: open-sidebar;
+    animation-duration: 500ms;
+}
+/*set to 420 when opening*/
+
+@keyframes open-sidebar {
+    from {width: 0px;}
+    to {width: 420px; opacity: 100%;}
+}
+
+@keyframes open-move-handle {
+    from {inset: auto 0 0 auto;}
+    to {inset: auto 420px 0 auto;}
+}
+
+#handle-button {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    background-color:antiquewhite;
+    inset: auto 0 0 auto;
+    border-radius: 20px;
+    animation-name: open-move-handle;
+    animation-duration: 500ms;
+}
+
+#solar-map {
+    background-color: black;
+    height: 400px;
+    margin: 10px;
+    width: 100%;
+    opacity: 0;
+}
+
+#info-text {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
