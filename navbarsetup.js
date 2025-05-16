@@ -17,7 +17,7 @@ navOpenClose.style.position = "absolute";
 navOpenClose.style.top = "12px";
 navOpenClose.style.right = "12px";
 navOpenClose.style.zIndex = "10";
-navOpenClose.style.backgroundColor = "blue";
+navOpenClose.style.backgroundImage = 'url("navbutton1.PNG")';
 
 function navEvaluate() {
     if(navBar.style.display == "none"){
